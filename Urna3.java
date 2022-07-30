@@ -42,18 +42,17 @@ public class Urna3 {
                    
            }else  { System.out.println(" CANDIDATO INEXISTENTE!\n ");
            
-           } System.out.println("Vote novamente! \n \nOu digite (-1)para encerraer!");
+           } System.out.println("Vote novamente! \n \nOu digite (-1)para encerrar!");
            voto =sc.nextInt();
-           } /**if (voto==12|| voto==13 || voto==22 || voto==0){
-               votoTotal++;
-           }
+           } 
        
-           /** System.out.println("Voto novamente!");  
-            voto = sc.nextInt();
-              
-               */
-            
+       
+       
+       
+       
+       
            
+                   
           System.out.println("Votação encerrada.");
           System.out.println("  ");
           System.out.println("___ RESULTADO___");
@@ -62,8 +61,11 @@ public class Urna3 {
           System.out.println("Bolsonaroro = "+ votoBolsonaro);
           System.out.println("Nulo = "+ votoNulo);
           System.out.println("  ");
-          System.out.println(" TOTAL = "+ votoTotal + "   Vencedor: ");
+          System.out.println(" TOTAL = "+ votoTotal );
            
+         
+          
+            
     
        sc.close();
     }
